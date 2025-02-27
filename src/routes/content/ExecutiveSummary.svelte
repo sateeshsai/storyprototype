@@ -68,7 +68,7 @@
 	});
 </script>
 
-<section class="exec h-[350px]" in:fade={{ delay: 500 }}>
+<section class="exec h-[350px] max-w-[600px]" in:fade={{ delay: 500 }}>
 	<h1 class="mb-6 text-2xl font-light text-foreground/70" in:slide>Something interesting here</h1>
 
 	{#if !execSummary.filter((i) => i.active).length}

@@ -6,7 +6,7 @@
 	import BarChartNew from '../fees/BarChartNew.svelte';
 </script>
 
-<section class="exec h-[400px]" in:fade={{ delay: 500 }}>
+<section class="exec h-[400px] max-w-[500px]" in:fade={{ delay: 500 }}>
 	<h1 class="mb-6 text-2xl font-light text-dgreen-200" in:slide>One more section</h1>
 	<p class="mb-6 text-foreground/90">
 		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum culpa quidem reprehenderit, quis

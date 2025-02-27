@@ -9,7 +9,7 @@
 	import BarChartNew from '../fees/BarChartNew.svelte';
 </script>
 
-<section class="exec h-[400px]" in:fade={{ delay: 500 }}>
+<section class="exec h-[400px] max-w-[500px]" in:fade={{ delay: 500 }}>
 	<h1 class="mb-6 text-center text-2xl font-light text-foreground/70" in:slide>
 		Our industry experience
 	</h1>
