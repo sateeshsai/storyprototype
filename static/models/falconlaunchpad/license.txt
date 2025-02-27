@@ -1,0 +1,11 @@
+Model Information:
+* title:	Falcon 9 & Launching Pad
+* source:	https://sketchfab.com/3d-models/falcon-9-launching-pad-e957a9dbb45146e0946e16f2cb12c827
+* author:	Aashish_3D (https://sketchfab.com/Aashish_3D)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Falcon 9 & Launching Pad" (https://sketchfab.com/3d-models/falcon-9-launching-pad-e957a9dbb45146e0946e16f2cb12c827) by Aashish_3D (https://sketchfab.com/Aashish_3D) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

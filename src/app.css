@@ -1,1 +1,132 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		/* green 1 */
+		--dgreen-100: 61 62% 72%;
+		/* bright green */
+		--dgreen-200: 117 100% 47%;
+		/* green 2 */
+		--dgreen-300: 65 100% 42%;
+		/* D green */
+		--dgreen-400: 81 67% 44%;
+		/* green 4 */
+		--dgreen-500: 109 61% 43%;
+		/* green 5 */
+		--dgreen-600: 146 100% 30%;
+		/* green accessible */
+		--dgreen-700: 108 83% 29%;
+		/* green 6  */
+		--dgreen-800: 151 93% 22%;
+		/* green 7 */
+		--dgreen-900: 133 30% 25%;
+
+		/* blue 1 */
+		--dblue-100: 202 100% 81%;
+		/* blue bright */
+		--dblue-200: 184 100% 60%;
+		/* blue 2 */
+		--dblue-300: 202 72% 64%;
+		/* blue 3 */
+		--dblue-400: 196 100% 44%;
+		/* blue accesible */
+		--dblue-500: 198 100% 35%;
+		/* blue 4 */
+		--dblue-600: 198 100% 33%;
+		/* blue 5 */
+		--dblue-700: 202 100% 26%;
+		/* blue 6 */
+		--dblue-800: 222 98% 21%;
+		/* blue 7 */
+		--dblue-900: 215 89% 14%;
+
+		/* teal 1 */
+		--dteal-100: 157 36% 90%;
+		/* teal bright */
+		--dteal-200: 163 95% 61%;
+		/* teal 2 */
+		--dteal-300: 175 39% 72%;
+		/* teal 3 */
+		--dteal-400: 170 40% 60%;
+		/* teal 4 */
+		--dteal-500: 180 100% 34%;
+		/* teal 5 */
+		--dteal-600: 186 100% 33%;
+		/* teal accesible */
+		--dteal-700: 186 83% 31%;
+		/* teal 6 */
+		--dteal-800: 185 100% 25%;
+		/* teal 7 */
+		--dteal-900: 187 100% 17%;
+
+		--background: 0 0% 100%;
+		--foreground: 224 71.4% 4.1%;
+		--muted: 220 14.3% 95.9%;
+		--muted-foreground: 220 8.9% 46.1%;
+		--popover: 0 0% 100%;
+		--popover-foreground: 224 71.4% 4.1%;
+		--card: 0 0% 100%;
+		--card-foreground: 224 71.4% 4.1%;
+		--border: 220 13% 91%;
+		--input: 220 13% 91%;
+		--primary: 220.9 39.3% 11%;
+		--primary-foreground: 210 20% 98%;
+		--secondary: 220 14.3% 95.9%;
+		--secondary-foreground: 220.9 39.3% 11%;
+		--accent: 220 14.3% 95.9%;
+		--accent-foreground: 220.9 39.3% 11%;
+		--destructive: 0 72.2% 50.6%;
+		--destructive-foreground: 210 20% 98%;
+		--ring: 224 71.4% 4.1%;
+		--radius: 0.5rem;
+		--sidebar-background: 0 0% 98%;
+		--sidebar-foreground: 240 5.3% 26.1%;
+		--sidebar-primary: 240 5.9% 10%;
+		--sidebar-primary-foreground: 0 0% 98%;
+		--sidebar-accent: 240 4.8% 95.9%;
+		--sidebar-accent-foreground: 240 5.9% 10%;
+		--sidebar-border: 220 13% 91%;
+		--sidebar-ring: 217.2 91.2% 59.8%;
+	}
+
+	.dark {
+		--background: 224 71.4% 4.1%;
+		--foreground: 210 20% 98%;
+		--muted: 215 27.9% 16.9%;
+		--muted-foreground: 217.9 10.6% 64.9%;
+		--popover: 224 71.4% 4.1%;
+		--popover-foreground: 210 20% 98%;
+		--card: 224 71.4% 4.1%;
+		--card-foreground: 210 20% 98%;
+		--border: 215 27.9% 16.9%;
+		--input: 215 27.9% 16.9%;
+		--primary: 210 20% 98%;
+		--primary-foreground: 220.9 39.3% 11%;
+		--secondary: 215 27.9% 16.9%;
+		--secondary-foreground: 210 20% 98%;
+		--accent: 215 27.9% 16.9%;
+		--accent-foreground: 210 20% 98%;
+		--destructive: 0 62.8% 30.6%;
+		--destructive-foreground: 210 20% 98%;
+		--ring: 216 12.2% 83.9%;
+		--sidebar-background: 240 5.9% 10%;
+		--sidebar-foreground: 240 4.8% 95.9%;
+		--sidebar-primary: 224.3 76.3% 48%;
+		--sidebar-primary-foreground: 0 0% 100%;
+		--sidebar-accent: 240 3.7% 15.9%;
+		--sidebar-accent-foreground: 240 4.8% 95.9%;
+		--sidebar-border: 240 3.7% 15.9%;
+		--sidebar-ring: 217.2 91.2% 59.8%;
+	}
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+	body {
+		@apply bg-background text-foreground;
+	}
+}
