@@ -24,7 +24,7 @@
 		<World bind:sceneProgress {environmentIsBackground} {environmentUrl} />
 	</div>
 
-	<div class="logo fixed left-6 top-6">
+	<div class="logo fixed left-10 top-10">
 		<Deloitte />
 	</div>
 	<!-- <button
